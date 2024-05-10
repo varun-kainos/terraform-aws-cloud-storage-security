@@ -7,7 +7,10 @@ terraform {
     awscc = {
       source  = "hashicorp/awscc"
       version = ">= 0.72.1"
-      region  = "eu-west-1"
     }
   }
+}
+
+provider "awscc" {
+  region = "eu-west-1"
 }
