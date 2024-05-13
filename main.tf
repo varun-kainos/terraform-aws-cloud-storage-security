@@ -10,7 +10,3 @@ terraform {
     }
   }
 }
-
-provider "awscc" {
-  region = "eu-west-1"
-}
